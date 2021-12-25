@@ -1,42 +1,28 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Clean TS template
 ## ⚡️ Quick start
 1. create new repo using this template 
 2. change Name in package.json
+2. install package via `yarn install` 
 3. write script in src
-4. "yarn dev"
-##  Source structure
-### ./src/types
+4. run command `yarn dev`
+## 🗄 Template structure
+> `./src/types`
 **Folder For self-declare types.**
 ## ⓘ Template info
 * default paths @ -> src/
 * Hot reload by default using ts-node-dev
 * Add lint by default
 ## ⌘ Command
-### Run hot reload
-```bash
-yarn dev
-```
-### Run one time
-```bash
-yarn start:ts
-```
-### Lint check
-```bash
-yarn lint
-```
-### Lint fix
-```bash
-yarn lint:fix
-```
-### Build
-```bash
-yarn build
-```
-### Start
-```bash
-yarn start
-```
-## 🗄 Template structure
+* `yarn dev` run with hot reload
+* `yarn start:ts` run one time
+
+* `yarn lint` lint check
+
+* `yarn lint:fix` lint fix
+* `yarn build` build src to dist
+* `yarn start` start src after build
+
 ## 📦 Used packages
 | Name                                                                                                   | Version    | Type       |
 | ------------------------------------------------------------------------------------------------------ | ---------  | ---------- |
@@ -60,3 +46,4 @@ yarn start
     | 16 & up|es2021 |
     | 17 & up|es2022 |
 ## ⚠️ License
+> `MIT`
